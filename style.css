@@ -15,6 +15,16 @@
 --color-button-hover: #CB6C1A;
 }
 
+
+<<<<<<< Updated upstream
+/*variable font*/
+:root{
+    --font-rozhaone: font-family: 'Rozha One', serif;
+    --font-lato: font-family: 'Lato', sans-serif;
+}
+=======
+>>>>>>> Stashed changes
+
 /*-------------------
 Mise en forme DESIGN SYSTEM
 ---------------------*/
