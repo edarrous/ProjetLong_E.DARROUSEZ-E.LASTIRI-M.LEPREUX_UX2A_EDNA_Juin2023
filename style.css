@@ -1,6 +1,19 @@
+
+
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Rozha+One&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Rozha+One&display=swap');
+/*les couleurs des variables*/
+:root{
+--color-primary: #F18424;
+--color-secondary: #633DFF;
+--color-button-disabled: #FF9E49;
+--color-black: #303030;
+--color-white: #FFFFFF;
+--color-icon-hover: hsla(0, 0%, 0%, 0.500);
+--color-light-orage: #FFDBC3;
+--color-grey: #E3E3E3;
+--color-button-hover: #CB6C1A;
+}
 
 
 /*variable font*/
