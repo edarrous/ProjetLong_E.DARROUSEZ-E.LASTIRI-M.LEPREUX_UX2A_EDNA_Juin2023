@@ -1,8 +1,9 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Rozha+One&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Rozha+One&display=swap');
 
+
+/*variable font*/
 :root{
     --font-rozhaone: font-family: 'Rozha One', serif;
     --font-lato: font-family: 'Lato', sans-serif;
