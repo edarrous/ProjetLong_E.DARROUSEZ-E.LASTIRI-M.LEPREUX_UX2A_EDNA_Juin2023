@@ -18,9 +18,57 @@
 
 /*variable font*/
 :root{
-    --font-rozhaone: 'Rozha One', serif;
-    --font-lato: 'Lato', sans-serif;
+    --font-rozhaone: font-family: 'Rozha One', serif;
+    --font-lato: font-family: 'Lato', sans-serif;
 }
+
+
+/*text styles */
+
+.header {
+
+    font-size : 28px ; 
+    font-family: var(--font-rozhaone);
+}
+
+.H1 {
+
+    font-size: 28px;
+    font-family: var(--font-lato) ;
+}
+
+.H2 {
+
+    font-size: 24px;
+    font-family: var(--font-lato);
+
+}
+
+.H3 {
+
+    font-size: 18px;
+    font-family: var(--font-lato);
+}
+
+.paragraph {
+
+    font-size: 18px;
+    font-family: var(--font-lato);
+}
+
+.tinytext {
+
+    font-size: 12px;
+    font-family: var(--font-lato);
+}
+
+.title {
+
+    font-size: 40px;
+    font-family:var(--font-lato);
+}
+
+
 
 /*-------------------
 Mise en forme DESIGN SYSTEM
@@ -40,6 +88,7 @@ header{
     font-family: var(--font-lato);
     font-size: 1.5rem;
 }
+
 .container-article-DesignSystem{
     font-family: var(--font-lato);
     background-color: #FFFFFF;
@@ -47,3 +96,9 @@ header{
     width: fit-content;
     height: fit-content;
 }
+
+
+
+
+
+
