@@ -97,7 +97,26 @@ header{
     height: fit-content;
 }
 
-
+/* -----------------
+ICONES
+--------------------*/
+.icon{
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.icon--s{
+    width: 2rem;
+    height: 2rem;
+}
+.icon--m{
+    width: 4rem;
+    height: 4rem;
+}
+.icon--profile{
+    background-image: url(assets/icons/icon-profil.svg);
+}
 
 
 
