@@ -18,10 +18,11 @@
 
 /*variable font*/
 :root{
-    --font-rozhaone: 'Rozha One', serif;
-    --font-lato: 'Lato', sans-serif;
+    --font-rozhaone: font-family: 'Rozha One', serif;
+    --font-lato: font-family: 'Lato', sans-serif;
 }
 
+<<<<<<< Updated upstream
 /*-------------------
 Mise en forme DESIGN SYSTEM
 ---------------------*/
@@ -47,3 +48,7 @@ header{
     width: fit-content;
     height: fit-content;
 }
+=======
+
+
+>>>>>>> Stashed changes
