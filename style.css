@@ -18,8 +18,8 @@
 
 /*variable font*/
 :root{
-    --font-rozhaone: 'Rozha One', serif;
-    --font-lato: 'Lato', sans-serif;
+    --font-rozhaone: font-family: 'Rozha One', serif;
+    --font-lato: font-family: 'Lato', sans-serif;
 }
 
 
@@ -70,7 +70,6 @@
 
 
 
-
 /*-------------------
 Mise en forme DESIGN SYSTEM
 ---------------------*/
@@ -90,4 +89,10 @@ header{
     font-size: 1.5rem;
 }
 
-
+.container-article-DesignSystem{
+    font-family: var(--font-lato);
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 5px rgba(241, 132, 36, 0.5);
+    width: fit-content;
+    height: fit-content;
+}
