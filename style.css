@@ -18,13 +18,25 @@
 
 /*variable font*/
 :root{
-    --font-rozhaone: font-family: 'Rozha One', serif;
-    --font-lato: font-family: 'Lato', sans-serif;
+    --font-rozhaone: 'Rozha One', serif;
+    --font-lato: 'Lato', sans-serif;
 }
 
 /*-------------------
 Mise en forme DESIGN SYSTEM
 ---------------------*/
-.H1_DesignSystem{
-font-family: ;
+.H1-DesignSystem{
+font-family: var(--font-lato);
+font-size: 3rem;
+}
+header{
+    background-color: #FFDBC3;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.text-paragraph-DesignSystem{
+    font-family: var(--font-lato);
+    font-size: 1.5rem;
 }
