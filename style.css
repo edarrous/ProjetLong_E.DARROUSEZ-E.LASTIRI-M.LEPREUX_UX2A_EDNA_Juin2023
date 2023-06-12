@@ -353,10 +353,6 @@ border-radius: 10px;
 /* Challenges */
 
 .card {
-    /* Styles pour la card */
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
     padding: 0px;
     width: 328px;
     height: 209px;
@@ -371,18 +367,10 @@ border-radius: 10px;
     flex-direction: row;
     align-items: center;
     gap: 0.5rem;
-
-
     }
     
-    .card-header {
-    /* Styles pour l'en-tête de la card */
-    display: flex;
-    align-items: center;
-    padding: 16px;
-    }
     
-    .card-header img {
+    .avatar {
     /* Styles pour l'image utilisateur */
     width: 28px;
     height: 28px;
@@ -392,24 +380,18 @@ border-radius: 10px;
     .card-header-info {
     /* Styles pour les informations de l'en-tête */
     width: 100%;
-    display: grid;
     grid-template-columns: 3(1fr);
+    display: flex;
+    gap: 4rem;
     }
-    
-    .card-content {
-    /* Styles pour le contenu de la card */
-    padding: 16px;
+
+    .normal{
+    display:block;
+    width: 328px;
+    height: 228px;
+
     }
-    
-    .card-footer {
-    /* Styles pour le pied de la card */
-    padding: 8px 16px;
-    }
-    
-    .card-footer a {
-    /* Styles pour les liens du pied de la card */
-    margin-right: 16px;
-    }
+
 
 
 /* Creer un post  */
@@ -463,3 +445,45 @@ border-radius: 10px;
     }
 
 
+/* card challenge elora */
+.challenge-container{
+    background-color: var(--color-white);
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(241, 132, 36, 0.5);    width: 328px;
+    height: 347px;
+    padding: 10px;
+}
+
+.user-profil{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.user{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img-challenge{
+    width: 328px;
+    height: 228px;
+    margin-top: 1rem;
+}
+.contenu{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 1rem;
+}
+
+h2{
+    margin: 0;
+}
+
+p{
+    margin: 0;
+}
