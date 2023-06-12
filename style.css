@@ -365,6 +365,15 @@ border-radius: 10px;
     box-shadow: 0px 2px 5px rgba(241, 132, 36, 0.5);
     border-radius: 10px;
     }
+
+    .card-group-user{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+
+
+    }
     
     .card-header {
     /* Styles pour l'en-tête de la card */
@@ -382,7 +391,9 @@ border-radius: 10px;
     
     .card-header-info {
     /* Styles pour les informations de l'en-tête */
-    margin-left: 16px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 3(1fr);
     }
     
     .card-content {
