@@ -93,22 +93,6 @@ header{
     width: fit-content;
     height: fit-content;
 }
-
-
-/*--------------------
-Les boutons primary
----------------------*/
-
-.button-initial{
-    position: relative;
-    width: 159px;
-    height: 36px;
-    left: 78px;
-    top: 27px;
-    background: #F18424;
-    border-radius: 10px;
-    border-style: none;
-    color: #FFFFFF;
 /* -----------------
 ICONES
 --------------------*/
@@ -166,6 +150,22 @@ ICONES
     background-image: url(assets/icons/icon-timer.svg);
 }
 
+/*--------------------
+Les boutons primary
+---------------------*/
+
+.button-initial{
+    position: relative;
+    width: 159px;
+    height: 36px;
+    left: 78px;
+    top: 27px;
+    background: #F18424;
+    border-radius: 10px;
+    border-style: none;
+    color: #FFFFFF;
+    }
+    
 .button-hover{
     position: relative;
     width: 159px;
@@ -323,5 +323,4 @@ border-radius: 10px;
     
     background: #F18424;
     border-radius: 6px;
-
 }
