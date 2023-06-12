@@ -22,26 +22,26 @@
 
 /*text styles */
 
-.header {
+.logo {
 
     font-size : 28px ; 
     font-family: var(--font-rozhaone);
 }
 
-.H1 {
+.title1 {
 
     font-size: 28px;
     font-family: var(--font-lato) ;
 }
 
-.H2 {
+.title2 {
 
     font-size: 24px;
     font-family: var(--font-lato);
 
 }
 
-.H3 {
+.title3 {
 
     font-size: 18px;
     font-family: var(--font-lato);
