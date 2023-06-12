@@ -117,6 +117,41 @@ ICONES
 .icon--profile{
     background-image: url(assets/icons/icon-profil.svg);
 }
-
+.icon--arrow-down{
+    background-image: url(assets/icons/icon-arrow-down.svg);
+}
+.icon--croix{
+    background-image: url(assets/icons/icon-croix.svg);
+}
+.icon--heart{
+    background-image: url(assets/icons/icon-heart.svg);
+}
+.icon--home{
+    background-image: url(assets/icons/icon-home.svg);
+}
+.icon--message{
+    background-image: url(assets/icons/icon-message.svg);
+}
+.icon--pen{
+    background-image: url(assets/icons/icon-pen.svg);
+}
+.icon--people{
+    background-image: url(assets/icons/icon-people.svg);
+}
+.icon--picture{
+    background-image: url(assets/icons/icon-picture.svg);
+}
+.icon--plume{
+    background-image: url(assets/icons/icon-plume.svg);
+}
+.icon--return{
+    background-image: url(assets/icons/icon-return.svg);
+}
+.icon--send{
+    background-image: url(assets/icons/icon-send.svg);
+}
+.icon--timer{
+    background-image: url(assets/icons/icon-timer.svg);
+}
 
 
