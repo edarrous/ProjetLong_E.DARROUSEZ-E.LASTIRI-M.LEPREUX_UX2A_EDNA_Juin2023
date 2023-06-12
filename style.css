@@ -471,7 +471,9 @@ border-radius: 10px;
 .img-challenge{
     width: 328px;
     height: 228px;
+    object-fit: cover;
     margin-top: 1rem;
+    padding: 0px;
 }
 .contenu{
     display: flex;
