@@ -2,22 +2,19 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Rozha+One&display=swap');
 
-/*les couleurs des variables*/
 :root{
---color-primary: #F18424;
---color-secondary: #633DFF;
---color-button-disabled: #FF9E49;
---color-black: #303030;
---color-white: #FFFFFF;
---color-icon-hover: hsla(0, 0%, 0%, 0.500);
---color-light-orage: #FFDBC3;
---color-grey: #E3E3E3;
---color-button-hover: #CB6C1A;
-}
+    /*les couleurs des variables*/
+    --color-primary: #F18424;
+    --color-secondary: #633DFF;
+    --color-button-disabled: #FF9E49;
+    --color-black: #303030;
+    --color-white: #FFFFFF;
+    --color-icon-hover: hsla(0, 0%, 0%, 0.500);
+    --color-light-orage: #FFDBC3;
+    --color-grey: #E3E3E3;
+    --color-button-hover: #CB6C1A;
 
-
-/*variable font*/
-:root{
+    /*variable font*/
     --font-rozhaone: font-family: 'Rozha One', serif;
     --font-lato: font-family: 'Lato', sans-serif;
 }
@@ -97,6 +94,21 @@ header{
     height: fit-content;
 }
 
+
+/*--------------------
+Les boutons primary
+---------------------*/
+
+.button-initial{
+    position: relative;
+    width: 159px;
+    height: 36px;
+    left: 78px;
+    top: 27px;
+    background: #F18424;
+    border-radius: 10px;
+    border-style: none;
+    color: #FFFFFF;
 /* -----------------
 ICONES
 --------------------*/
@@ -154,4 +166,162 @@ ICONES
     background-image: url(assets/icons/icon-timer.svg);
 }
 
+.button-hover{
+    position: relative;
+    width: 159px;
+    height: 36px;
+    left: 78px;
+    top: 27px;
+    background: #CB6C1A;
+    border-radius: 10px;
+    border-style: none;
+    color: #FFFFFF;
 
+}
+
+.button-disabled{
+    position: relative;
+    width: 159px;
+    height: 36px;
+    left: 78px;
+    top: 27px;
+    background: #FF9E49;
+    border-radius: 10px;
+    border-style: none;
+    color: #FFFFFF;
+
+}
+
+.button-active{
+    position: relative;
+    width: 159px;
+    height: 36px;
+    left: 78px;
+    top: 27px;
+    background: #F18424;
+    border-radius: 10px;
+    border-style: none;
+    color: #FFFFFF;
+
+}
+
+/*--------------------
+Les boutons debat
+---------------------*/
+
+.Option-A-borders{
+
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px 16px;
+gap: 10px;
+
+position: relative;
+width: 99px;
+height: 35px;
+left: 20px;
+top: 20px;
+color: #633DFF;
+
+background: #FFFFFF;
+/* Secondary */
+
+border: 1px solid #633DFF;
+border-radius: 16px;
+}
+
+.Option-A-full{
+
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px 16px;
+gap: 10px;
+
+position: relative;
+width: 98px;
+height: 35px;
+left: 20px;
+top: 75px;
+color: #FFFFFF;
+
+/* Secondary */
+
+background: #633DFF;
+/* White */
+
+border: 1px solid #FFFFFF;
+border-radius: 16px;
+}
+
+/*--------------------
+Categories
+---------------------*/
+
+.categories{
+position:static;
+width: 329px;
+height: 125px;
+left: 20px;
+top: 20px;
+border-style: none;
+
+background: #FFFFFF;
+border-radius: 10px;
+}
+
+/*--------------------
+Challenges cards
+---------------------*/
+
+.challenges-cards{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 9px 0px 50px;
+gap: 10px;
+
+position: absolute;
+width: 328px;
+height: 347px;
+left: 20px;
+top: 20px;
+
+background: #FFFFFF;
+/* subtil */
+
+box-shadow: 0px 2px 5px rgba(241, 132, 36, 0.5);
+border-radius: 10px;
+}
+
+.trending{
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 3px 7px;
+    gap: 6px;
+    
+    position: absolute;
+    width: 91px;
+    height: 23px;
+    left: 11px;
+    top: 65px;
+    border-style: none;
+    color: #FFFFFF;
+    
+    /* Primary */
+    
+    background: #F18424;
+    border-radius: 6px;
+
+}
