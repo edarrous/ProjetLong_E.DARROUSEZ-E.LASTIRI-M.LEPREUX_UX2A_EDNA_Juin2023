@@ -120,6 +120,12 @@ ICONES
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+
+}
+
+.icon--xs{
+width: 1.5rem ;
+height: 1.5rem ;
 }
 .icon--s{
     width: 2rem;
@@ -426,7 +432,8 @@ border-radius: 10px;
     .card-header {
     /* Styles pour l'en-tête de la card */
     align-items: center;
-    padding: 16px;}
+    padding: 16px;
+}
     
     .card-header img {
     /* Styles pour l'image utilisateur */
@@ -447,15 +454,34 @@ border-radius: 10px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding: 2px;
   
     }
     
+    .card-content li {
+        /* Styles pour la liste à puces à l'intérieur du contenu de la card */
+        list-style-type: none;
+      }
     
     .card-footer a {
     /* Styles pour les liens du pied de la card */
     margin-right: 16px;
     }
 
+    .card-icons {
+        display: flex;
+        justify-content: flex-end;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        margin-right: 8px;
+      }
+
+     
+    
+    
+     
 
 /* card challenge elora */
 .challenge-container{
@@ -501,3 +527,4 @@ h2{
 p{
     margin: 0;
 }
+
