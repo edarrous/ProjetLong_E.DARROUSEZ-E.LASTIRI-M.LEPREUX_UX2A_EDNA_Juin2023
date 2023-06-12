@@ -366,6 +366,15 @@ border-radius: 10px;
     border-radius: 10px;
     background-image: url('chemin/vers/image.png');
     }
+
+    .card-group-user{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+
+
+    }
     
     .card-header {
     /* Styles pour l'en-tête de la card */
@@ -387,7 +396,9 @@ border-radius: 10px;
     
     .card-header-info {
     /* Styles pour les informations de l'en-tête */
-    margin-left: 16px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 3(1fr);
     }
     
     .card-content {
