@@ -166,6 +166,10 @@ ICONES
     background-image: url(assets/icons/icon-timer.svg);
 }
 
+/* -----------------
+Buttons
+--------------------*/
+
 .button-hover{
     position: relative;
     width: 159px;
