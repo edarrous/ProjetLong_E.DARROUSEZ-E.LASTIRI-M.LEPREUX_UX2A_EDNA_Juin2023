@@ -22,26 +22,26 @@
 
 /*text styles */
 
-.logo {
+.header {
 
     font-size : 28px ; 
     font-family: var(--font-rozhaone);
 }
 
-.title1 {
+.H1 {
 
     font-size: 28px;
     font-family: var(--font-lato) ;
 }
 
-.title2 {
+.H2 {
 
     font-size: 24px;
     font-family: var(--font-lato);
 
 }
 
-.title3 {
+.H3 {
 
     font-size: 18px;
     font-family: var(--font-lato);
@@ -93,6 +93,23 @@ header{
     width: fit-content;
     height: fit-content;
 }
+
+
+/*--------------------
+Les boutons primary
+---------------------*/
+
+.button-initial{
+    position: relative;
+    width: 159px;
+    height: 36px;
+    left: 78px;
+    top: 27px;
+    background: #F18424;
+    border-radius: 10px;
+    border-style: none;
+    color: #FFFFFF;
+    
 /* -----------------
 ICONES
 --------------------*/
@@ -150,22 +167,6 @@ ICONES
     background-image: url(assets/icons/icon-timer.svg);
 }
 
-/*--------------------
-Les boutons primary
----------------------*/
-
-.button-initial{
-    position: relative;
-    width: 159px;
-    height: 36px;
-    left: 78px;
-    top: 27px;
-    background: #F18424;
-    border-radius: 10px;
-    border-style: none;
-    color: #FFFFFF;
-    }
-    
 .button-hover{
     position: relative;
     width: 159px;
@@ -323,4 +324,5 @@ border-radius: 10px;
     
     background: #F18424;
     border-radius: 6px;
+
 }
