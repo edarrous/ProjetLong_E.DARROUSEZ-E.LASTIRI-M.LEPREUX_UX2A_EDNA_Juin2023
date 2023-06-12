@@ -108,7 +108,9 @@ Les boutons primary
     background: #F18424;
     border-radius: 10px;
     border-style: none;
-    color: #FFFFFF;}
+    color: #FFFFFF;
+}
+
 
 /* -----------------
 ICONES
@@ -306,7 +308,7 @@ border-radius: 10px;
 }
 
 .trending{
-
+    
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -329,4 +331,5 @@ border-radius: 10px;
 }
 
 /*cards*/
+
 
