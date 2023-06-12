@@ -364,6 +364,7 @@ border-radius: 10px;
     background: #FFFFFF;
     box-shadow: 0px 2px 5px rgba(241, 132, 36, 0.5);
     border-radius: 10px;
+    background-image: url('chemin/vers/image.png');
     }
     
     .card-header {
@@ -371,6 +372,7 @@ border-radius: 10px;
     display: flex;
     align-items: center;
     padding: 16px;
+
     }
     
     .card-header img {
@@ -378,6 +380,9 @@ border-radius: 10px;
     width: 28px;
     height: 28px;
     border-radius: 50%; /* Rend l'image ronde */
+    object-fit: cover;
+
+
     }
     
     .card-header-info {
@@ -415,6 +420,7 @@ border-radius: 10px;
     background: #FFFFFF;
     box-shadow: 0px 2px 5px rgba(241, 132, 36, 0.5);
     border-radius: 10px;
+    
     }
     
     .card-header {
@@ -429,6 +435,7 @@ border-radius: 10px;
     width: 28px;
     height: 28px;
     border-radius: 50%; /* Rend l'image ronde */
+    
     }
     
     .card-header-info {
