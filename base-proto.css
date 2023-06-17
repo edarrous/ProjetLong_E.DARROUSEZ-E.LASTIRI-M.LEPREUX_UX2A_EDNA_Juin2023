@@ -1,0 +1,11 @@
+body{
+    background-color: #463f3a;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+main{
+    width: 22.5rem;
+    min-height: 40rem;
+    background-color: white;
+}
