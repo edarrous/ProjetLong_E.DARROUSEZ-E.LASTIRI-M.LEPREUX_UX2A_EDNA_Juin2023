@@ -15,15 +15,18 @@
     --color-button-hover: #CB6C1A;
 
     /*variable font*/
-    --font-rozhaone: font-family: 'Rozha One', serif;
-    --font-lato: font-family: 'Lato', sans-serif;
+    --font-rozhaone:'Rozha One', serif;
+    --font-lato:'Lato', sans-serif;
 }
 
-.color-primary{
+.bg-color-primary{
     background-color: var(--color-primary);
 }
-.color-default{
+.bg-color-default{
     background-color:var(--color-black);
+}
+.txt-color-primary{
+    color: var(--color-primary);
 }
 /*text styles */
 
@@ -51,6 +54,12 @@
     font-size: 16px;
     font-family: var(--font-lato);
 }
+.bold{
+    font-weight: 700;
+}
+.font-rozha{
+    font-family: var(--font-rozhaone);
+}
 
 .tinytext {
     font-size: 12px;
@@ -59,7 +68,7 @@
 
 .title {
     font-size: 40px;
-    font-family:var(--font-lato);
+    font-family:var(--font-rozhaone);
 }
 
 /* -----------------
