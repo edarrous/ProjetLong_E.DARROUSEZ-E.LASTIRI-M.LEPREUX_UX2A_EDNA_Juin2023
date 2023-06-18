@@ -22,7 +22,7 @@
 .bg-color-primary{
     background-color: var(--color-primary);
 }
-.bg-color-default{
+.color-default{
     background-color:var(--color-black);
 }
 .txt-color-primary{
