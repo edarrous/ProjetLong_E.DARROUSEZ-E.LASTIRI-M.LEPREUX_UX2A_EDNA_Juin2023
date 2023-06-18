@@ -15,9 +15,14 @@ main{
     position: relative;
 }
 .navbar-pos{
-    position: absolute;
-    left: 0;
-    right: 0;
+    position: fixed;
     bottom: 0;
-
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 10000;
+}
+.home--feed-section{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem ;
 }

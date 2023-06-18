@@ -595,7 +595,7 @@ Cards
     border-radius: 16px;
     display: flex;
     flex-direction: column;
-    gap: 2rem;    
+    gap: 2rem; 
 }
 .card--profil--img{
     height: 28px;
