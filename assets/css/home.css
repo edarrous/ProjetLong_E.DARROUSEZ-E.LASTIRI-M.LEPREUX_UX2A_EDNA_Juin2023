@@ -1,0 +1,21 @@
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.logo--header-img{
+    width: 2rem;
+    height: 2rem;
+    background-image: url(/assets/images/logo-dischcovery.svg);
+    background-size: cover;
+    background-position: center center;
+}
+.logo--header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    gap: 0.5rem;
+}
