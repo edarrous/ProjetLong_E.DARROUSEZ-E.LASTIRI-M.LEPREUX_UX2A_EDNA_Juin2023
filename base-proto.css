@@ -3,9 +3,13 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;   
+   
 }
 main{
     width: 22.5rem;
     min-height: 40rem;
     background-color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 4rem;
 }
