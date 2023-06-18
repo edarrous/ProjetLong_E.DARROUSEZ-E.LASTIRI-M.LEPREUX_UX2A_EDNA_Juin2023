@@ -12,4 +12,12 @@ main{
     padding-left: 1rem;
     padding-right: 1rem;
     padding-top: 4rem;
+    position: relative;
+}
+.navbar-pos{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
 }
