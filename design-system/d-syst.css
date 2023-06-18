@@ -38,6 +38,9 @@ Classes colors
 .txt-color-primary{
     color: var(--color-primary);
 }
+.txt-color-secondary{
+    color: var(--color-secondary);
+}
 
 /*-------------------------
 Effects
@@ -48,7 +51,9 @@ Effects
 /*----------------------
 text styles
 ----------------------- */
-
+.txt-center{
+    text-align: center;
+}
 .header {
     font-size : 28px ; 
     font-family: var(--font-rozhaone);
@@ -61,7 +66,7 @@ text styles
 }
 
 .titre2 {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: var(--font-lato);
 }
 
@@ -69,9 +74,11 @@ text styles
     font-size: 18px;
     font-family: var(--font-lato);
 }
-
+.txt-20{
+    font-size: 20px;
+}
 .paragraph {
-    font-size: 16px;
+    font-size: 1rem;
     font-family: var(--font-lato);
 }
 .justify-center{
@@ -82,6 +89,9 @@ text styles
 }
 .font-rozha{
     font-family: var(--font-rozhaone);
+}
+.lato{
+    font-family: var(--font-lato);
 }
 
 .tinytext {
@@ -95,9 +105,15 @@ text styles
     font-weight: 400;
 }
 .texte-button {
-    font-size: 16px;
+    font-size: 1rem;
     font-family: var(--font-lato);
     font-weight: 600;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.font-w--700{
+    font-weight: 700;
 }
 /* -----------------
 ICONES
