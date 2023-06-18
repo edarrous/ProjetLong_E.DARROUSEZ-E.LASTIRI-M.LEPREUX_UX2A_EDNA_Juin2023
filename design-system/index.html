@@ -7,6 +7,7 @@
     <title>Design System Dischcovery - Projet Long </title>
     <link rel="stylesheet" href="/design-system/d-syst.css">
     <link rel="stylesheet" href="page-design-system.css">
+    
 </head>
 <body>
     <!--Header = présentation design system-->
@@ -24,7 +25,7 @@
                     <span class="icon icon--s  icon--profile color-default"></span>
                     <span class="icon icon--s icon--arrow-down color-default"></span>
                     <span class="icon icon--s icon--croix color-default"></span>
-                    <span class="icon icon--s icon--heart color-default"></span>
+                    <span class="icon icon--s icon--heart color-default" id="button-heart"></span>
                     <span class="icon icon--s icon--home color-default"></span>
                     <span class="icon icon--s icon--message color-default"></span>
                     <span class="icon icon--s icon--pen color-default"></span>
@@ -40,10 +41,10 @@
             <section>
                 <h3>Barre de navigation</h3>
                     <nav class="navbar navbar-pos">
-                        <a class="navbar-click" href="/home.html"><span class="icon icon--s icon--home color-default"></span></a>
-                        <a class="navbar-click" href="/search.html"><span class="icon icon--s icon--search color-default"></span></a>
-                        <a class="navbar-click" href="/challenge.html"><span class="icon icon--s icon--trophie color-default"></span></a>
-                        <a class="navbar-click" href="/user.html"><span class="icon icon--s icon--profile color-default"></span></a>
+                        <a class="navbar-click" href="/home.html"><span class="icon icon--xs icon--home color-default"></span></a>
+                        <a class="navbar-click" href="/search.html"><span class="icon icon--xs icon--search color-default"></span></a>
+                        <a class="navbar-click" href="/challenge.html"><span class="icon icon--xs icon--trophie color-default"></span></a>
+                        <a class="navbar-click" href="/user.html"><span class="icon icon--xs icon--profile color-default"></span></a>
                     </nav>
             </section>
             <section>
@@ -89,6 +90,52 @@
                     </section>
                 </article>
             </section>
+            <section>
+                <h3>Cards</h3>
+                <h4>Card histoire</h4>
+                <article class="card--histoire--container">
+                    <section class="card--head">
+                        <div class="card--head-infos">
+                            <div class="card--user-infos">
+                                <span class="card--profil--img"><img src="/assets/images/cards/user prfil logo.png" alt="user profil"></span>
+                                <p class="tinytext txt-color-white">@giulio_lttr</p>
+                            </div>
+                            <p class="tinytext txt-color-white card--post-hour">il y a 8h</p>
+                        </div>
+                        <div class="card--histoire--date--container">
+                            <div class="card--histoire--date"><h3 class="titre3 no-margin">1889</h3></div>
+                        </div>
+                    </section>
+                    <section class="card--body">
+                        <div>
+                            <p class="paragraph card--body--text">Mais d’où vient la fameuse Pizza Marguerita ??🧐  Il s’agit de l'une des pizzas les plus emblématiques et populaires au monde. Son histoire remonte à la fin du XIXe siècle en Italie. La légende raconte qu'en juin 1889, le roi d'Italie, Umberto I, et la reine, Margherita di Savoia, étaient en visite à Naples. Ils désiraient goûter la célèbre spécialité culinaire locale : la pizza.</p>
+                        </div>
+                        <div class="card--body--cta">
+                            <span class="icon icon--xs icon--heart color-default" id="button-heart2"></span>
+                            <span class="icon icon--xs icon--message color-default"></span>
+                            <span class="icon icon--xs icon--send color-default"></span> 
+                        </div>
+                        <div class="card--body--liked">
+                            <img class="card--body--liked-img" src="/assets/images/cards/liked-profil-img.jpg" alt="user profil img">
+                            <p class="tinytext">Aimé par matt_grb et 967 894 autres personnes</p>
+                        </div>
+
+                    </section>
+                </article>
+            </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
                     <!--Challenges cards elora--> 
                     <article class="challenge-container">
                         <section class="user">
@@ -135,6 +182,7 @@
 
                     <!--Challenges cards buttons--> 
                     <button class="trending">trending</button>
+    <script src="/assets/script/changeclass.js"></script>
     </body>
 </body>
 </html>
