@@ -12,6 +12,7 @@ main{
     padding-left: 1rem;
     padding-right: 1rem;
     padding-top: 2rem;
+    padding-bottom: 4rem;
 }
 .navbar-pos{
     position: fixed;

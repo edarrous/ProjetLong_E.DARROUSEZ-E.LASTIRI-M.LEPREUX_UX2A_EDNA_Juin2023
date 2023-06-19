@@ -44,7 +44,9 @@ Classes colors
 .txt-color-white{
     color: var(--color-white);
 }
-
+.txt-color-black{
+    color: var(--color-black);
+}
 /*-------------------------
 Effects
 --------------------------*/
@@ -611,7 +613,6 @@ Cards
 .card--head{
     width: fit-content;
     height: 10.12rem;
-    background-image: url(/assets/images/cards/histoire/reine-pizza-img.jpg);
     background-size: cover;
     padding-top: 1.5rem;
     display: flex;
@@ -674,4 +675,11 @@ Cards
     width: 16px;
     height: 16px;
     border-radius: 1000%;
+}
+
+.histoire--image-1{
+    background-image: url(/assets/images/cards/histoire/reine-pizza-img.jpg);
+}
+.histoire--image-2{
+    background-image: url(/assets/images/cards/histoire/merckleKebab.jpg);
 }
