@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publier - Prototype Dischcovery</title>
+    <link rel="stylesheet" href="/assets/css/base-proto.css">
+    <link rel="stylesheet" href="/design-system/d-syst.css">
+    <link rel="stylesheet" href="/assets/css/write-comment.css">
+
+</head>
+<body>
+    <main>
+        <!-- --------------- NAVBAR ------------------------- -->
+        <nav class="navbar navbar-pos">
+            <a class="navbar-click" href="/home.html"><span class="icon icon--xs icon--home-active bg-color-primary"></span></a>
+            <a class="navbar-click" href="/search.html"><span class="icon icon--xs icon--search color-default"></span></a>
+            <a class="navbar-click" href="/challenge.html"><span class="icon icon--xs icon--trophie color-default"></span></a>
+            <a class="navbar-click" href="/user.html"><span class="icon icon--xs icon--profile color-default"></span></a>
+        </nav>
+        <!-- ------------------------------------------------------- -->
+        <section class="write-comment--section-title">
+            <a href="/le-saviez-vous.html"><span class="icon icon--s icon--croix color-default"></span></a>
+            <h1 class="no-margin titre3 bold">Écrire un post</h1>
+        </section>
+        <section>
+               <!-- Card Feed-->
+               <article class="card--histoire--container shadow-subtil">
+                <a class="card--histoire--container">
+                <section class="card--head-h-fit">
+                    <div class="card--head-infos">
+                        <div class="card--user-infos">
+                            <span class="card--profil--img"><img src="/assets/images/cards/user prfil logo.png" alt="user profil"></span>
+                            <p class="tinytext txt-color-black">@giulio_lttr</p>
+                        </div>
+                    </div>
+                </section>
+                <section class="card--body">
+                    <form>
+                        <!-- setup du champ-->
+                        <fieldset>
+                            <!-- Legende = nom de la section du formulaire-->
+                            <div class="">
+                                <!-- il existe différents types de champs-->
+                                <input class="paragraph" type="text" placeholder="raconte nous ?">
+                            </div>
+                        </fieldset>
+                    </form>
+                    <div class="card--body--cta">
+                        <span class="icon icon--xs icon--people color-default"></span>
+                        <span class="icon icon--xs icon--picture color-default"></span>
+                        <span class="icon icon--xs icon--pen color-default"></span> 
+                    </div>
+                    <form class="card--body--send-form">
+                        <input class="button button-initial" type="submit" value="Publier">
+                    </form>
+                </section>
+            </article>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,10 @@
+.write-comment--section-title{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
