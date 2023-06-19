@@ -620,6 +620,16 @@ Cards
     gap: 90px;
     border-radius: 16px 16px 0 0;
 }
+.card--head-h-fit{
+    width: fit-content;
+    height: fit-content;
+    background-size: cover;
+    padding-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+    border-radius: 16px 16px 0 0;
+}
 .card--head-infos{
     display: flex;
     flex-direction: row;
@@ -658,6 +668,14 @@ Cards
     overflow: hidden;
     text-overflow: ellipsis;
     -webkit-line-clamp: 3;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.card--body--text-extended{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    width: 20.5rem;
+    height: fit-content;
     padding-left: 1rem;
     padding-right: 1rem;
 }

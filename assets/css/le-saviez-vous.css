@@ -1,0 +1,14 @@
+.commentaires--section{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.commentaires--section-title{
+    margin-left: 1rem;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}

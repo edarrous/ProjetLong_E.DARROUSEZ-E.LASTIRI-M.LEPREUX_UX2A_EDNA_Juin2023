@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post - Pizza Marguerita - Prototype Dischcovery</title>
+    <link rel="stylesheet" href="/assets/css/base-proto.css">
+    <link rel="stylesheet" href="/design-system/d-syst.css">
+    <link rel="stylesheet" href="/assets/css/le-saviez-vous.css">
+</head>
+<body>
+    <main>
+        <!-- --------------- NAVBAR ------------------------- -->
+        <nav class="navbar navbar-pos">
+            <a class="navbar-click" href="/home.html"><span class="icon icon--xs icon--home-active bg-color-primary"></span></a>
+            <a class="navbar-click" href="/search.html"><span class="icon icon--xs icon--search color-default"></span></a>
+            <a class="navbar-click" href="/challenge.html"><span class="icon icon--xs icon--trophie color-default"></span></a>
+            <a class="navbar-click" href="/user.html"><span class="icon icon--xs icon--profile color-default"></span></a>
+        </nav>
+        <!-- ------------------------------------------------------- -->
+        <section>
+            <a href="/home.html"><span class="icon icon--s icon--return color-default"></span></a>
+        </section>
+        <section>
+            <p class="font-rozha txt-20 txt-center txt-color-secondary bold font-w--700 uppercase">Le saviez-vous ?</p>
+        </section>
+        <!-----------------------Card-------------------------->
+        <article class="card--histoire--container">
+            <section class="card--head histoire--image-1">
+                <div class="card--head-infos">
+                    <div class="card--user-infos">
+                        <span class="card--profil--img"><img src="/assets/images/cards/user prfil logo.png" alt="user profil"></span>
+                        <p class="tinytext txt-color-white">@giulio_lttr</p>
+                    </div>
+                    <p class="tinytext txt-color-white card--post-hour">il y a 8h</p>
+                </div>
+                <div class="card--histoire--date--container">
+                    <div class="card--histoire--date"><h3 class="titre3 no-margin">1889</h3></div>
+                </div>
+            </section>
+            <section class="card--body">
+                <div>
+                    <p class="paragraph card--body--text-extended">Mais d’où vient la fameuse Pizza Marguerita ??🧐 
+                        Je vais vous raconter l’origine de ce plat mythique, que ma grand-mère me racontait quand j’étais petit ! 
+                        Il faut savoir qu’il s’agit de l'une des pizzas les plus emblématiques et populaires au monde. Son histoire remonte à la fin du XIXe siècle en Italie. La légende raconte qu'en juin 1889, le roi d'Italie, Umberto I, et la reine, Margherita di Savoia, étaient en visite à Naples. Ils désiraient goûter la célèbre spécialité culinaire locale : la pizza.
+                        Esposito décida de créer une pizza simple et représentative des couleurs du drapeau italien 🇮🇹 : le rouge de la tomate, le blanc de la mozzarella et le vert du basilic frais. Il utilisa une base de pâte à pizza, ajouta des tranches de tomates, de la mozzarella fraîche et des feuilles de basilic, puis la cuisa au four à bois.
+                        La pizza Margherita fut présentée à la reine Margherita, qui l'apprécia tellement qu'elle devint sa pizza préférée. Esposito nomma cette création en son honneur, et la pizza Margherita devint rapidement populaire à Naples, puis dans toute l'Italie.
+                        </p>
+                </div>
+                <div class="card--body--cta">
+                    <span class="icon icon--xs icon--heart color-default" id="button-heart2"></span>
+                    <a href="/write-comment.html"><span class="icon icon--xs icon--message color-default"></span></a>
+                    <span class="icon icon--xs icon--send color-default"></span> 
+                </div>
+                <div class="card--body--liked">
+                    <img class="card--body--liked-img" src="/assets/images/cards/liked-profil-img.jpg" alt="user profil img">
+                    <p class="tinytext">Aimé par matt_grb et 967 894 autres personnes</p>
+                </div>
+            </section>
+            <section class="commentaires--section">
+                <!--------------------------COMMENTAIRES---------------------------->
+                <h4 class="titre3 no-margin commentaires--section-title">Commentaires</h4>
+                <article class="card--histoire--container">
+                    <section class="card--head-h-fit">
+                        <div class="card--head-infos">
+                            <div class="card--user-infos">
+                                <img class="card--profil--img" src="/assets/images/cards/histoire/profilcard2.jpg" alt="user profil">
+                                <p class="tinytext txt-color-black">@louefu_it</p>
+                            </div>
+                            <p class="tinytext txt-color-black card--post-hour">il y a 7h</p>
+                        </div>
+                    </section>
+                    <section class="card--body">
+                        <div>
+                            <p class="paragraph card--body--text-extended"> La pizza Margherita, un trionfo di sapori italiani che conquista i cuori di tutto il mondo 🤌🏼. Préparer cette pizza, comme ma mère me l'a appris, avec attention et dévouement, est un acte de fierté et de transmission de notre identité italienne. Je suis heureux de constater que cette pizza Margherita est appréciée dans le monde entier, même si son histoire reste très peu connue à mon goût...</p>
+                        </div>
+                        <div class="card--body--cta">
+                            <span class="icon icon--xs icon--heart color-default" id="button-heart2"></span>
+                            <span class="icon icon--xs icon--message color-default"></span>
+                            <span class="icon icon--xs icon--send color-default"></span> 
+                        </div>
+                        <div class="card--body--liked">
+                            <img class="card--body--liked-img" src="/assets/images/photos/userprofile.jpg" alt="user profil img">
+                            <p class="tinytext">Aimé par ghisli_yu89 et 15 autres personnes</p>
+                        </div>
+                    </section>
+                </article>
+                <!------------------------------------------------------------>
+            </section>
+        </article>
+        <!------------------------------------------------------------>
+    </main>
+    <script src="/assets/script/changeclass.js"></script>
+</body>
+</html>
