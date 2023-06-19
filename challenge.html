@@ -1,18 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Challenges - Prototype Dischcovery</title>
+    <link rel="stylesheet" href="/assets/css/base-proto.css">
+    <link rel="stylesheet" href="/design-system/d-syst.css">
+    <link rel="stylesheet" href="/assets/css/challenges.css">
 </head>
 <body>
     <main>
-        <nav class="navbar navbar-pos">
-            <a class="navbar-click" href="/home.html"><span class="icon icon--s icon--home-active bg-color-primary"></span></a>
-            <a class="navbar-click" href="/search.html"><span class="icon icon--s icon--search color-default"></span></a>
-            <a class="navbar-click" href="/challenge.html"><span class="icon icon--s icon--trophie color-default"></span></a>
-            <a class="navbar-click" href="/user.html"><span class="icon icon--s icon--profile color-default"></span></a>
-        </nav>
+      <!-- --------------- NAVBAR ------------------------- -->
+      <nav class="navbar navbar-pos">
+        <a class="navbar-click" href="/home.html"><span class="icon icon--xs icon--home color-default"></span></a>
+        <a class="navbar-click" href="/search.html"><span class="icon icon--xs icon--search color-default"></span></a>
+        <a class="navbar-click" href="/challenge.html"><span class="icon icon--xs icon--trophie bg-color-primary"></span></a>
+        <a class="navbar-click" href="/user.html"><span class="icon icon--xs icon--profile color-default"></span></a>
+    </nav>
+    <!-- ------------------------------------------------------- -->
+    <section >
+        <article class="logo--header">
+            <a href="/home.html"><span class="icon icon--s icon--return color-default"></span></a>
+            <h1 class="header txt-color-primary">Challenges</h1>
+        </article>
+    </section>
+    <section class="challenge--section-time">
+        <h2 class="titre3">Ends in <span class="txt-color-primary">6:41:24</span></h2>
+    </section>
+    <section>
+        <article >
+            <section class="challenge-hebdo--infos shadow-subtil">
+            <div>
+                <h3 class="lato txt-20">Fais ton meilleur taco !</h3>
+                <img src="/assets/images/challenge-hebdo/challenge_profil_photos.png" alt="users">
+            </div>
+            <div>
+                <img src="/assets/images/challenge-hebdo/challenge_hebdo_taco.png" alt="">
+            </div>
+            </section>
+        </article>
+    </section>
+    <section>
+        <!--Challenges cards elora--> 
+        <article class="challenge-container">
+            <section class="user">
+                <div class="user-profil">
+                    <img src="/assets/images/photos/userprofile.jpg" alt="Image utilisateur" class="avatar">
+                    <p class="tinytext">@justeliolas90</p>
+                </div>
+                <p class="tinytext">il y a 14h</p>
+            </section>
+            <img class="img-challenge" src="/assets/images/food/tacos.JPG" alt="picto taco">
+            <section class="contenu">
+                <h2 class="titre3">Tacos al pastor</h2>
+                <p class="paragraph">#tags</p>
+            </section>
+        </article>
+    </section>
     </main>
 </body>
 </html>

@@ -1,0 +1,18 @@
+.logo--header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    gap: 5rem;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.challenge--section-time{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
